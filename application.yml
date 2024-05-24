@@ -7,10 +7,6 @@ management:
   endpoint:
     health:
       show-details: "ALWAYS"
-  endpoints:
-    web:
-      exposure:
-        include: "*"
 
 resilience4j.circuitbreaker:
   configs:
