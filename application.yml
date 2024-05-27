@@ -1,6 +1,6 @@
 resilience4j:
   circuitbreaker:
-    failureRateThreshold: 30
+    failureRateThreshold: 60
 
 management:
   security:
